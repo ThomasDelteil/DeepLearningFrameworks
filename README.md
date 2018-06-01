@@ -27,20 +27,20 @@ The notebooks are executed on an [AWS DML AMI](https://docs.aws.amazon.com/dlami
 
 | DL Library                                            | V100 CUDA 9/CuDNN 7| 
 | ----------------------------------------------------- | :----------------: | 
-| [Caffe2](notebooks/Caffe2_CNN.ipynb)                  |        TBA         | 
-| [Chainer](notebooks/Chainer_CNN.ipynb)                |        TBA         | 
-| [CNTK](notebooks/CNTK_CNN.ipynb)                      |        TBA         | 
+| [Caffe2](notebooks/Caffe2_CNN.ipynb)                  |                    | 
+| [Chainer](notebooks/Chainer_CNN.ipynb)                |                    | 
+| [CNTK](notebooks/CNTK_CNN.ipynb)                      |                    | 
 | [MXNet(Gluon)](notebooks/Gluon_CNN.ipynb)             |        37.1s       | 
 | [MXNet(Module API)](notebooks/MXNet_CNN.ipynb)        |      **33.0s**     | 
-| [Keras(CNTK)](notebooks/Keras_CNTK_CNN.ipynb)         |        TBA         | 
-| [Keras(TF)](notebooks/Keras_TF_CNN.ipynb)             |        TBA         | 
-| [Keras(Theano)](notebooks/Keras_Theano_CNN.ipynb)     |        TBA         | 
+| [Keras(CNTK)](notebooks/Keras_CNTK_CNN.ipynb)         |                    | 
+| [Keras(TF)](notebooks/Keras_TF_CNN.ipynb)             |                    | 
+| [Keras(Theano)](notebooks/Keras_Theano_CNN.ipynb)     |                    | 
 | [Tensorflow](notebooks/Tensorflow_CNN.ipynb)          |        53.7s       | 
-| [Lasagne(Theano)](notebooks/Theano_Lasagne_CNN.ipynb) |        TBA         | 
+| [Lasagne(Theano)](notebooks/Theano_Lasagne_CNN.ipynb) |                    | 
 | [PyTorch](notebooks/PyTorch_CNN.ipynb)                |        33.3s       | 
-| [Julia - Knet](notebooks/Knet_CNN.ipynb)              |        TBA         | 
-| [R - MXNet](notebooks/.ipynb)                         |        TBA         | 
-| [R - Keras(TF)](notebooks/KerasR_TF_CNN.ipynb)        |        TBA         | 
+| [Julia - Knet](notebooks/Knet_CNN.ipynb)              |                    | 
+| [R - MXNet](notebooks/.ipynb)                         |                    | 
+| [R - Keras(TF)](notebooks/KerasR_TF_CNN.ipynb)        |                    | 
 
 
 *Note: It is recommended to use higher level APIs where possible; see these notebooks for examples with [Tensorflow](notebooks/Tensorflow_CNN_highAPI.ipynb), [MXNet](notebooks/MXNet_CNN_highAPI.ipynb) and [CNTK](notebooks/CNTK_CNN_highAPI.ipynb). They are not linked in the table to keep the common-structure-for-all approach*
@@ -55,20 +55,20 @@ This is a work in progress
 
 | DL Library                                        | 1xV100/CUDA 9/CuDNN 7 | 4xV100/CUDA 9/CuDNN 7 |
 | -----------------------------------------------   | :------------------:  | :------------------:  |
-| [Pytorch](notebooks/PyTorch_MultiGPU.ipynb)       | TBA                   | 12Min27*              |
-| [Keras(TF)](notebooks/Keras_TF_MultiGPU.ipynb)    | TBA                   | TBA                   |
-| [Tensorflow](notebooks/Tensorflow_MultiGPU.ipynb) | TBA                   | TBA                   |
-| [Chainer](notebooks/Chainer_MultiGPU.ipynb)       | TBA                   | TBA                   |
-| [MXNet(Gluon)](notebooks/Gluon_MultiGPU.ipynb)    | TBA                   | **9Min44**            |
+| [Pytorch](notebooks/PyTorch_MultiGPU.ipynb)       |                       | 12Min27*              |
+| [Keras(TF)](notebooks/Keras_TF_MultiGPU.ipynb)    |                       |                       |
+| [Tensorflow](notebooks/Tensorflow_MultiGPU.ipynb) |                       |                       |
+| [Chainer](notebooks/Chainer_MultiGPU.ipynb)       |                       |                       |
+| [MXNet(Gluon)](notebooks/Gluon_MultiGPU.ipynb)    |                       | **9Min44**            |
 
 **Train w/ synthetic-data**
 
 | DL Library                                        | 4xV100/CUDA 9/CuDNN 7 | 
 | -----------------------------------------------   | :------------------:  | 
 | [Pytorch](notebooks/PyTorch_MultiGPU.ipynb)       | **8Min23***           |
-| [Keras(TF)](notebooks/Keras_TF_MultiGPU.ipynb)    | TBA                   |
-| [Tensorflow](notebooks/Tensorflow_MultiGPU.ipynb) | TBA                   |
-| [Chainer]()                                       | TBA                   |
+| [Keras(TF)](notebooks/Keras_TF_MultiGPU.ipynb)    |                       |
+| [Tensorflow](notebooks/Tensorflow_MultiGPU.ipynb) |                       |
+| [Chainer]()                                       |                       |
 | [MXNet(Gluon)](notebooks/Gluon_MultiGPU.ipynb)    | 8min51                |
 
 
@@ -83,18 +83,18 @@ Input for this model is 112,120 PNGs of chest X-rays resized to (264, 264). **No
 
 | DL Library                                          | V100 CUDA 9/CuDNN 7| 
 | --------------------------------------------------- | :----------------: | 
-| [Caffe2](notebooks/Caffe2_Inference.ipynb)          | TBA                | 
-| [Chainer](notebooks/Chainer_Inference.ipynb)        | TBA                | 
-| [CNTK](notebooks/CNTK_Inference.ipynb)              | TBA                | 
+| [Caffe2](notebooks/Caffe2_Inference.ipynb)          |                    | 
+| [Chainer](notebooks/Chainer_Inference.ipynb)        |                    | 
+| [CNTK](notebooks/CNTK_Inference.ipynb)              |                    | 
 | [MXNet(Gluon)](notebooks/Gluon_Inference.ipynb)     | 1.35s              | 
 | [MXNet(Module API)](notebooks/MXNet_Inference.ipynb)| **1.25s**          | 
-| [Keras(CNTK)](notebooks/Keras_CNTK_Inference.ipynb) | TBA                | 
-| [Keras(TF)](notebooks/Keras_TF_Inference.ipynb)     | TBA                | 
+| [Keras(CNTK)](notebooks/Keras_CNTK_Inference.ipynb) |                    | 
+| [Keras(TF)](notebooks/Keras_TF_Inference.ipynb)     |                    | 
 | [Tensorflow](notebooks/Tensorflow_Inference.ipynb)  | 1.38s              | 
 | [PyTorch](notebooks/PyTorch_Inference.ipynb)        | 1.52s              | 
-| [Julia - Knet](notebooks/Knet_Inference.ipynb)      | TBA                | 
-| [R - MXNet](notebooks/.ipynb)                       | TBA                | 
-| [R - Keras(TF)](notebooks/KerasR_TF_Inference.ipynb)| TBA                | 
+| [Julia - Knet](notebooks/Knet_Inference.ipynb)      |                    | 
+| [R - MXNet](notebooks/.ipynb)                       |                    | 
+| [R - Keras(TF)](notebooks/KerasR_TF_Inference.ipynb)|                    | 
 
 
 A pre-trained ResNet50 model is loaded and chopped just after the avg_pooling at the end (7, 7), which outputs a 2048D dimensional vector. This can be plugged into a softmax layer or another classifier such as a boosted tree to perform transfer learning. Allowing for a warm start; this forward-only pass to the avg_pool layer is timed. *Note: batch-size remains constant, however filling the RAM on a GPU would produce further performance boosts (greater for GPUs with more RAM).*
@@ -103,15 +103,15 @@ A pre-trained ResNet50 model is loaded and chopped just after the avg_pooling at
 
 | DL Library                                  | V100 CUDA 9/CuDNN 7 |  Using CuDNN? |
 | ------------------------------------------- | :----------------: |   :----------: |
-| [CNTK](notebooks/CNTK_RNN.ipynb)              | TBA              | Yes          |
-| [Keras(CNTK)](notebooks/Keras_CNTK_RNN.ipynb) | TBA              | No           |
-| [Keras(TF)](notebooks/Keras_TF_RNN.ipynb)     | TBA              | Yes          |
-| [MXNet(Module API)](notebooks/MXNet_RNN.ipynb)| TBA              | Yes          |
-| [Pytorch](notebooks/PyTorch_RNN.ipynb)        | TBA              | Yes          |
-| [Tensorflow](notebooks/Tensorflow_RNN.ipynb)  | TBA              | Yes          |
-| [Julia - Knet](notebooks/Knet_RNN.ipynb)      | TBA              | Yes          |
-| [R - MXNet](notebooks/.ipynb)                 | TBA              | ???          |
-| [R - Keras(TF)](notebooks/KerasR_TF_RNN.ipynb)| TBA              | Yes          |
+| [CNTK](notebooks/CNTK_RNN.ipynb)              |                  | Yes          |
+| [Keras(CNTK)](notebooks/Keras_CNTK_RNN.ipynb) |                  | No           |
+| [Keras(TF)](notebooks/Keras_TF_RNN.ipynb)     |                  | Yes          |
+| [MXNet(Module API)](notebooks/MXNet_RNN.ipynb)|                  | Yes          |
+| [Pytorch](notebooks/PyTorch_RNN.ipynb)        |                  | Yes          |
+| [Tensorflow](notebooks/Tensorflow_RNN.ipynb)  |                  | Yes          |
+| [Julia - Knet](notebooks/Knet_RNN.ipynb)      |                  | Yes          |
+| [R - MXNet](notebooks/.ipynb)                 |                  | ???          |
+| [R - Keras(TF)](notebooks/KerasR_TF_RNN.ipynb)|                  | Yes          |
 
 
 Input for this model is the standard [IMDB movie review dataset](http://ai.stanford.edu/~amaas/data/sentiment/) containing 25k training reviews and 25k test reviews, uniformly split across 2 classes (positive/negative). Processing follows [Keras](https://github.com/fchollet/keras/blob/master/keras/datasets/imdb.py) approach where start-character is set as 1, out-of-vocab (vocab size of 30k is used) represented as 2 and thus word-index starts from 3. Zero-padded / truncated to fixed axis of 150 words per review.
