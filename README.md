@@ -63,7 +63,7 @@ This is a work in progress
 
 **Train w/ synthetic-data**
 
-| DL Library                                        | 4xP100/CUDA 9/CuDNN 7 | 
+| DL Library                                        | 4xV100/CUDA 9/CuDNN 7 | 
 | -----------------------------------------------   | :------------------:  | 
 | [Pytorch](notebooks/PyTorch_MultiGPU.ipynb)       | TBA                   |
 | [Keras(TF)](notebooks/Keras_TF_MultiGPU.ipynb)    | TBA                   |
@@ -101,7 +101,7 @@ A pre-trained ResNet50 model is loaded and chopped just after the avg_pooling at
 
 ### 4. Training Time(s): RNN (GRU) on IMDB - Sentiment Analysis
 
-| DL Library                                  | K80/CUDA 8/CuDNN 6 |  | Using CuDNN? |
+| DL Library                                  | V100 CUDA 9/CuDNN 7 |  | Using CuDNN? |
 | ------------------------------------------- | :----------------: |  | :----------: |
 | [CNTK](notebooks/CNTK_RNN.ipynb)              | TBA              | Yes          |
 | [Keras(CNTK)](notebooks/Keras_CNTK_RNN.ipynb) | TBA              | No           |
