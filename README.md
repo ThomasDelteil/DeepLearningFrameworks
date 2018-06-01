@@ -30,14 +30,14 @@ The notebooks are executed on an [AWS DML AMI](https://docs.aws.amazon.com/dlami
 | [Caffe2](notebooks/Caffe2_CNN.ipynb)                  |        TBA         | 
 | [Chainer](notebooks/Chainer_CNN.ipynb)                |        TBA         | 
 | [CNTK](notebooks/CNTK_CNN.ipynb)                      |        TBA         | 
-| [MXNet(Gluon)](notebooks/Gluon_CNN.ipynb)             |        TBA         | 
+| [MXNet(Gluon)](notebooks/Gluon_CNN.ipynb)             |        37.1s       | 
 | [Keras(CNTK)](notebooks/Keras_CNTK_CNN.ipynb)         |        TBA         | 
 | [Keras(TF)](notebooks/Keras_TF_CNN.ipynb)             |        TBA         | 
 | [Keras(Theano)](notebooks/Keras_Theano_CNN.ipynb)     |        TBA         | 
 | [Tensorflow](notebooks/Tensorflow_CNN.ipynb)          |        TBA         | 
 | [Lasagne(Theano)](notebooks/Theano_Lasagne_CNN.ipynb) |        TBA         | 
 | [MXNet(Module API)](notebooks/MXNet_CNN.ipynb)        |        TBA         | 
-| [PyTorch](notebooks/PyTorch_CNN.ipynb)                |        TBA         | 
+| [PyTorch](notebooks/PyTorch_CNN.ipynb)                |        33.3s       | 
 | [Julia - Knet](notebooks/Knet_CNN.ipynb)              |        TBA         | 
 | [R - MXNet](notebooks/.ipynb)                         |        TBA         | 
 | [R - Keras(TF)](notebooks/KerasR_TF_CNN.ipynb)        |        TBA         | 
@@ -55,7 +55,7 @@ This is a work in progress
 
 | DL Library                                        | 1xV100/CUDA 9/CuDNN 7 | 4xV100/CUDA 9/CuDNN 7 |
 | -----------------------------------------------   | :------------------:  | :------------------:  |
-| [Pytorch](notebooks/PyTorch_MultiGPU.ipynb)       | TBA                   | TBA                   |
+| [Pytorch](notebooks/PyTorch_MultiGPU.ipynb)       | TBA                   | 12Min27*              |
 | [Keras(TF)](notebooks/Keras_TF_MultiGPU.ipynb)    | TBA                   | TBA                   |
 | [Tensorflow](notebooks/Tensorflow_MultiGPU.ipynb) | TBA                   | TBA                   |
 | [Chainer](notebooks/Chainer_MultiGPU.ipynb)       | TBA                   | TBA                   |
@@ -65,7 +65,7 @@ This is a work in progress
 
 | DL Library                                        | 4xV100/CUDA 9/CuDNN 7 | 
 | -----------------------------------------------   | :------------------:  | 
-| [Pytorch](notebooks/PyTorch_MultiGPU.ipynb)       | TBA                   |
+| [Pytorch](notebooks/PyTorch_MultiGPU.ipynb)       | 8Min23*               |
 | [Keras(TF)](notebooks/Keras_TF_MultiGPU.ipynb)    | TBA                   |
 | [Tensorflow](notebooks/Tensorflow_MultiGPU.ipynb) | TBA                   |
 | [Chainer]()                                       | TBA                   |
@@ -86,12 +86,12 @@ Input for this model is 112,120 PNGs of chest X-rays resized to (264, 264). **No
 | [Caffe2](notebooks/Caffe2_Inference.ipynb)          | TBA                | 
 | [Chainer](notebooks/Chainer_Inference.ipynb)        | TBA                | 
 | [CNTK](notebooks/CNTK_Inference.ipynb)              | TBA                | 
-| [MXNet(Gluon)](notebooks/Gluon_Inference.ipynb)     | TBA                | 
+| [MXNet(Gluon)](notebooks/Gluon_Inference.ipynb)     | 1.35s              | 
 | [Keras(CNTK)](notebooks/Keras_CNTK_Inference.ipynb) | TBA                | 
 | [Keras(TF)](notebooks/Keras_TF_Inference.ipynb)     | TBA                | 
 | [Tensorflow](notebooks/Tensorflow_Inference.ipynb)  | TBA                | 
 | [MXNet(Module API)](notebooks/MXNet_Inference.ipynb)| TBA                | 
-| [PyTorch](notebooks/PyTorch_Inference.ipynb)        | TBA                | 
+| [PyTorch](notebooks/PyTorch_Inference.ipynb)        | 1.52s              | 
 | [Julia - Knet](notebooks/Knet_Inference.ipynb)      | TBA                | 
 | [R - MXNet](notebooks/.ipynb)                       | TBA                | 
 | [R - Keras(TF)](notebooks/KerasR_TF_Inference.ipynb)| TBA                | 
