@@ -101,8 +101,8 @@ A pre-trained ResNet50 model is loaded and chopped just after the avg_pooling at
 
 ### 4. Training Time(s): RNN (GRU) on IMDB - Sentiment Analysis
 
-| DL Library                                  | V100 CUDA 9/CuDNN 7 |  | Using CuDNN? |
-| ------------------------------------------- | :----------------: |  | :----------: |
+| DL Library                                  | V100 CUDA 9/CuDNN 7 |  Using CuDNN? |
+| ------------------------------------------- | :----------------: |   :----------: |
 | [CNTK](notebooks/CNTK_RNN.ipynb)              | TBA              | Yes          |
 | [Keras(CNTK)](notebooks/Keras_CNTK_RNN.ipynb) | TBA              | No           |
 | [Keras(TF)](notebooks/Keras_TF_RNN.ipynb)     | TBA              | Yes          |
