@@ -59,7 +59,7 @@ This is a work in progress
 | [Keras(TF)](notebooks/Keras_TF_MultiGPU.ipynb)    |                       |                       |
 | [Tensorflow](notebooks/Tensorflow_MultiGPU.ipynb) |                       |                       |
 | [Chainer](notebooks/Chainer_MultiGPU.ipynb)       |                       |                       |
-| [MXNet(Gluon)](notebooks/Gluon_MultiGPU.ipynb)    |                       | **9Min44**            |
+| [MXNet(Gluon)](notebooks/Gluon_MultiGPU.ipynb)    |    **27min**          | **9Min44**            |
 
 **Train w/ synthetic-data**
 
