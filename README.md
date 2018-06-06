@@ -65,11 +65,11 @@ This is a work in progress
 
 | DL Library                                        | 4xV100/CUDA 9/CuDNN 7 | 
 | -----------------------------------------------   | :------------------:  | 
-| [Pytorch](notebooks/PyTorch_MultiGPU.ipynb)       | **8Min23***           |
+| [Pytorch](notebooks/PyTorch_MultiGPU.ipynb)       | 8Min23                |
 | [Keras(TF)](notebooks/Keras_TF_MultiGPU.ipynb)    |                       |
 | [Tensorflow](notebooks/Tensorflow_MultiGPU.ipynb) |                       |
 | [Chainer]()                                       |                       |
-| [MXNet(Gluon)](notebooks/Gluon_MultiGPU.ipynb)    | **8min 22s**          |
+| [MXNet(Gluon)](notebooks/Gluon_MultiGPU.ipynb)    | **8Min22**            |
 
 
 Input for this model is 112,120 PNGs of chest X-rays resized to (264, 264). **Note for the notebook to automatically download the data you must install [Azcopy](https://docs.microsoft.com/en-us/azure/storage/common/storage-use-azcopy-linux#download-and-install-azcopy). The notebooks may take more than 10 minutes to first download the data.** These notebooks train DenseNet-121 and use native data-loaders to pre-process the data and perform the following data-augmentation:  
