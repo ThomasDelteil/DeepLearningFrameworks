@@ -55,11 +55,11 @@ This is a work in progress
 
 | DL Library                                        | 1xV100/CUDA 9/CuDNN 7 | 4xV100/CUDA 9/CuDNN 7 |
 | -----------------------------------------------   | :------------------:  | :------------------:  |
-| [Pytorch](notebooks/PyTorch_MultiGPU.ipynb)       |                       | 12Min27*              |
+| [Pytorch](notebooks/PyTorch_MultiGPU.ipynb)       |    27Min*             | 10Min*                |
 | [Keras(TF)](notebooks/Keras_TF_MultiGPU.ipynb)    |                       |                       |
 | [Tensorflow](notebooks/Tensorflow_MultiGPU.ipynb) |                       |                       |
 | [Chainer](notebooks/Chainer_MultiGPU.ipynb)       |                       |                       |
-| [MXNet(Gluon)](notebooks/Gluon_MultiGPU.ipynb)    |    **27min**          | **9Min44**            |
+| [MXNet(Gluon)](notebooks/Gluon_MultiGPU.ipynb)    |    **27<in**          | **8Min28**            |
 
 **Train w/ synthetic-data**
 
@@ -69,7 +69,7 @@ This is a work in progress
 | [Keras(TF)](notebooks/Keras_TF_MultiGPU.ipynb)    |                       |
 | [Tensorflow](notebooks/Tensorflow_MultiGPU.ipynb) |                       |
 | [Chainer]()                                       |                       |
-| [MXNet(Gluon)](notebooks/Gluon_MultiGPU.ipynb)    | **8Min13**            |
+| [MXNet(Gluon)](notebooks/Gluon_MultiGPU.ipynb)    | **7Min3**             |
 
 
 Input for this model is 112,120 PNGs of chest X-rays resized to (264, 264). **Note for the notebook to automatically download the data you must install [Azcopy](https://docs.microsoft.com/en-us/azure/storage/common/storage-use-azcopy-linux#download-and-install-azcopy). The notebooks may take more than 10 minutes to first download the data.** These notebooks train DenseNet-121 and use native data-loaders to pre-process the data and perform the following data-augmentation:  
@@ -86,7 +86,7 @@ Input for this model is 112,120 PNGs of chest X-rays resized to (264, 264). **No
 | [Caffe2](notebooks/Caffe2_Inference.ipynb)          |                    | 
 | [Chainer](notebooks/Chainer_Inference.ipynb)        |                    | 
 | [CNTK](notebooks/CNTK_Inference.ipynb)              |                    | 
-| [MXNet(Gluon)](notebooks/Gluon_Inference.ipynb)     | 1.35s              | 
+| [MXNet(Gluon)](notebooks/Gluon_Inference.ipynb)     | **1.25s**          | 
 | [MXNet(Module API)](notebooks/MXNet_Inference.ipynb)| **1.25s**          | 
 | [Keras(CNTK)](notebooks/Keras_CNTK_Inference.ipynb) |                    | 
 | [Keras(TF)](notebooks/Keras_TF_Inference.ipynb)     |                    | 
@@ -107,7 +107,8 @@ A pre-trained ResNet50 model is loaded and chopped just after the avg_pooling at
 | [Keras(CNTK)](notebooks/Keras_CNTK_RNN.ipynb) |                  | No           |
 | [Keras(TF)](notebooks/Keras_TF_RNN.ipynb)     |                  | Yes          |
 | [MXNet(Module API)](notebooks/MXNet_RNN.ipynb)|                  | Yes          |
-| [Pytorch](notebooks/PyTorch_RNN.ipynb)        |                  | Yes          |
+| [Pytorch](notebooks/PyTorch_RNN.ipynb)        | **11.4s**        | Yes          |
+| [MXNet(Gluon API)](notebooks/Gluon_RNN.ipynb) | **11.4s**        | Yes          |
 | [Tensorflow](notebooks/Tensorflow_RNN.ipynb)  |                  | Yes          |
 | [Julia - Knet](notebooks/Knet_RNN.ipynb)      |                  | Yes          |
 | [R - MXNet](notebooks/.ipynb)                 |                  | ???          |
